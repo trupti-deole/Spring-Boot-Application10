@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 import java.util.List;
+import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -79,6 +80,15 @@ public class HomeController {
 		List<Student> stuList=service.getAlldata();
 		m.addAttribute("data",stuList);
 		return "success";
+	}
+	public String checkEvenNo()
+	{
+		int no;
+		System.out.println("Enter no");
+		Scanner sc=new Scanner(System.in);
+		no=sc.nextInt();
+		return null;
+		
 	}
 	
 	

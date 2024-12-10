@@ -90,6 +90,12 @@ public class HomeController {
 		return null;
 		
 	}
+	public String checkPrimeNo()
+	{
+		int no;
+		return null;
+		
+	}
 	
 	
  

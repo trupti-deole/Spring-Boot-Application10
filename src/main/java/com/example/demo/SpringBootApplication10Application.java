@@ -13,5 +13,9 @@ public class SpringBootApplication10Application {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootApplication10Application.class, args);
 	}
+	void m2()
+	{
+		System.out.println("m2 method added");
+	}
 
 }
